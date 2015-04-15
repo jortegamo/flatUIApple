@@ -1,0 +1,150 @@
+body{
+	background-color: #E07272;
+}
+
+/*SCALE CLASS*/
+.small{
+	transform: scale(0.8,0.8);
+}
+.medium{
+	transform: scale(1.2,1.2);
+}
+.large{
+	transform: scale(1.6,1.6);
+}
+
+/*GLOBAL CLASS*/
+.flat-cam{
+	margin: 0 auto;
+	width: 2px;
+	height: 2px;
+	margin-bottom: 0.3em;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.flat-marco{
+	padding: 0.5em 1em 0.7em 1em;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	background-color: #2B2B2B;
+	border-bottom: 1px solid #B0AEAE;
+}
+
+.flat-marca{
+	width: 0.9em;
+	height: 0.9em;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+	background-color: #2B2B2B;
+	border-radius: 50%;
+}
+
+.flat-pantalla{
+	border-radius: 0.2em;
+}
+
+.flatUI img{
+	height: 100%;
+	width: 100%;
+	border-radius: 0.1em;
+}
+
+/*******FLAT UI******/
+.flatUI{
+	margin: 1em;
+}
+
+/*************FLAT UI iMAC*************/
+
+.flatUIiMac{
+	width: 25em;
+}
+
+.flatUIiMac .flat-cuerpo{
+	height: 15.5em;
+	width: 25em;
+}
+
+.flatUIiMac .flat-pantalla{
+	height: 11.8em;
+}
+
+
+.flatUIiMac .flat-basecuerpo{
+	height: 0.5em;
+	width: 25em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	background-color: #DEDDDD;
+}
+
+.flatUIiMac .flat-pie{
+	width: 4em;
+	margin: 0 auto;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-bottom: 0.3em solid #B0AEAE;
+}
+
+.flatUIiMac .flat-base{
+	width: 8em;
+	height: 0.3em;
+	margin: 0 auto;
+	background-color: #DEDDDD;
+	border-top-left-radius: 0.4em;
+	border-top-right-radius: 0.4em;
+	border-bottom: 1px solid #B0AEAE;
+}
+
+.flatUIiMac .flat-tronco{
+	width: 4em;
+	height: 2em;
+	margin: 0 auto;
+	background-color: #C0BDBD;
+}
+
+.flatUIiMac .flat-cuerposombra{
+	height: 0.5em;
+	background-color: #B0AEAE;
+}
+
+
+/*******FLAT UI MACBOOK*******/
+
+.flatUIMacbook{
+	width: 20em;
+}
+.flatUIMacbook .flat-cuerpo{
+	margin: 0 auto;
+	height: 10em;
+	width: 16em;
+}
+
+.flatUIMacbook .flat-marco{
+	border: 1px solid #DEDDDD;
+	border-bottom: none;
+}
+
+.flatUIMacbook .flat-pantalla{
+	height: 8.3em;
+}
+
+.flatUIMacbook .flat-basebook{
+	height: 0.7em;
+	background-color: #DEDDDD;
+	margin-left: 0em;
+	border-bottom-left-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
+}
+
+.flatUIMacbook .flat-detailOpen{
+	width: 3em;
+	height: 0.3em;
+	margin: 0 auto;
+	background-color: #C0BDBD;
+	border-bottom-left-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
+}
