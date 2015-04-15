@@ -32,7 +32,7 @@ FlatUIManager is accesible as FlatUI.
 ```javascript
   FlatUI.create(mode);
 ```
-*mode: [String] options: ```javascript ['iMac', 'Macbook']```
+*mode: [String] options: ``` ['iMac', 'Macbook']```
 *returns: [FlatUI Object]. 
 
 ####setId
@@ -55,7 +55,7 @@ FlatUIManager is accesible as FlatUI.
 ```javascript
   FlatUI.setSize(sizeOption)
 ```
-*sizeOption: [String] options: ```javascript ['small', 'medium', 'large']```
+*sizeOption: [String] options: ``` ['small', 'medium', 'large']```
 *result: scales the FlatUI object. If sizeOption is not passed (default).
   
 ####destroy
