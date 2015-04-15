@@ -24,6 +24,51 @@ type must be into:
 ```javascript
 ['iMac','Macbook']
 ```
+###FlatUIManager functions:
 
+FlatUIManager is accesible as FlatUI.
 
+####create
+```javascript
+  FlatUI.create(mode);
+```
+*mode: [String] options: ```javascript ['iMac', 'Macbook']```
+*returns: [FlatUI Object]. 
+
+####setId
+```javascript
+  FlatUI.setId(flat,_id)
+```
+*flat: [FlatUI Object].
+*_id: [String] Html ID.
+*result: sets a Id value to the FlatUI object.
+
+####setScreen
+```javascript
+  FlatUI.setScreen(flat,urlImage)
+```
+*flat: [FlatUI Object]
+*urlImage: [String] Image path.
+*result: set the src attribute of the image element within the screen.
+
+####setSize
+```javascript
+  FlatUI.setSize(sizeOption)
+```
+*sizeOption: [String] options: ```javascript ['small', 'medium', 'large']```
+*result: scales the FlatUI object. If sizeOption is not passed (default).
+  
+####destroy
+```javascript
+  FlatUI.destroy(flatObject)
+```
+*flatObject: [FlatUI Object].
+*result: destroy the Jquery FlatUI object and the FlatUI Object.
+
+###FlatUI Object
+
+```javascript
+  var flat = {JqueryObj: // Jquery Object created dynamically}
+```
+  
 
